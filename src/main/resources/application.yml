@@ -8,15 +8,15 @@ allowhost:
   ip: [127.0.0.1] # 限制系统访问为本机访问
 
 wechatpay:
-  appid: wxeabd913bc8960c0a #app id
-  mchid: 1325684801 #商户号
+  appid:  #app id
+  mchid:  #商户号
   notify_url: https://receivedaddress.com/notify #支付结果回调url
   refund_notify_url: https://receivedaddress.com/notify #退款结果回调url
   merchant_private_key_path: C:\\pzcAC\\apiclient_key.pem  # 证书地址
 
-  api_v3_key: zhangdefupanzhongcanpzcpzcpzcPZC # APIv3 密钥
-  mchapikey: xiamenwozhipanzhongcanVEELAN2020 # MD5密钥
-  merchant_serial_number: 32BDE78CF00D55932484102057762B8C608814E7  # 商户API证书的证书序列号
+  api_v3_key:  # APIv3 密钥
+  mchapikey:  # MD5密钥
+  merchant_serial_number:   # 商户API证书的证书序列号
 
   paymentUrls:
     union_order_url: https://api.mch.weixin.qq.com/pay/unifiedorder
@@ -36,17 +36,17 @@ wechatpay:
 # 以下配置目前为沙盒环境配置,盘中餐账号尚未找到,所以现在支付宝不可用
 aliypay:
   gateway_host: openapi.alipaydev.com # 支付宝网关
-  app_id: 2021000118646647 # "<-- 请填写您的AppId，例如：2019091767145019 -->"
+  app_id: 2021000118646647 # "请填写您的AppId，例如：2019091767145019 "
 
 #  gateway_host: openapi.alipay.com # 支付宝网关
-#  app_id: 1 # "<-- 请填写您的AppId，例如：2019091767145019 -->"
+#  app_id: 1 # "请填写您的AppId，例如：2019091767145019 "
   merchant_private_key: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCIoT6BhnpzipFQq33cS5Yv5fR5epBcTvFHNVcv2ZPonnlNULJgfoP63CbkGT+ujaD/a95GzbEwMzmhg/kslrLD1os6jZGM5aV8v7fi4EXsW004r/bEb15HxRRd/1EkE+uZpjh6aUqykLJ22awdRriT5PE7ssukG9BgrYKrqXxTpEZnJr8RgR6R+FatjtIySQ9hGuBga9MqmpmWdnHUcQ0JhdTpTT2f9pKo92QnAYdNVVfSIxvweQpHRckqv8/tWm31FQ+FSxI2T5QhzpG+mkth8lCQbdiHg0sJUzpSpFxh2Zf9JQBI8IqtOcrB816iEeQrkuNhyidsVP1l8U/8jds7AgMBAAECggEAYDIWzh8ei8bd9Qwo+zeEsIiZDgaLKVKzcc1Oa3QnPTqGcTcFwAaTacYi46obOgyhc/RAdV1RCXyncN54Szp29odRU5JlDeyKDUD2eRgqYvUNc4IAneFDYgiSBHREbsBPushbL2R+oSZbYG51Tc+DGS2x4rRJyGuE1OyU+cPEsyYIxaTEx0xvOFjqkEwcRsH0q9MjBDFcJSpPesM3Sz4FSVqq0EDW1RRUnGdZ7mqkIPshvZ4XfaE0xqOOnibu+3XTtHCV/cbWUcuTCn2q61QWO8XdkvS13x1QKuYLdghXy8KKfCUIEQGSih6y4jfg7EWyd/wbTG3fe77L+HSWen8vEQKBgQC850UupDbJxCfKKSysloAFHzYa8oGp6U2NN/yRpfjqm1aQMAbcaSLl/H0pir8ebNdCMkJZLNmxdzbIiUba0EVoxZ+gWNRJKxTBsplFAVzBaT256h5+ibn6JjmFSMZZvodJ+BcA0VE/Lf9RGV7VCOqveZFfG+AXmm+UZgzHaaORRQKBgQC5KM/aMacaguonYToY/MPAF3wvXkoHwLdEu1BgLGXpYJeSVh8SMAeP3S3GPvtTEzTHcqDwxT0WhmZ6UCasSYSQTs3HmN59XUlgJLRatCtSSqlI+6B+SbYDOUiFHRvtjf4mZDfc1fx2AhcEcch2Fx/pWqGjePvIawhxP4mM+/FCfwKBgQCm346H41za5ENaHQFv/QteevHq4CuXE5gEll6xs3KunUbc3PBSqTXBAUj3969Zi0ClI4zlBe/RC8UDZfGHvtBx+5JFrfLqJ/qQGdu3z7pGyVdT8vO5SKVXy4ioq189TEhrGZQIjuA89b9Dvyu8+cGH/dZjtFZDw5Op/nRvfGyYGQKBgDmsysHOgZyydrl5gZ1S7q6hIh+nISw1DWEtb6XlboE5gz0j8l259EENxjpgV+zSqLgPrq4Q4ixoBPfIi6NS6yYARf0MUxF9w2NdS4iNYokplH2VU7LCxx1N9JbyMEbY2fefc/8n8JHZqM3Lm4OdRGVtw7el8dfF70VHY1M1DzuFAoGBAKOo0imJyPpWwL1zRnqRG6Bi7phFSpwIe3cvXzarsBpf0RAmUtvo2enoAs6qHzNJe0l1LFtaxok+poP8XITFIwvsvcHlq/Etz6UIH/iPoCcbYhzftylfyXOR/fc5tg/kO8soe7+RDHcwuTzm0lRfwr0KdhznfctRh3meM3RyCRhv # "<-- 请填写您的应用私钥，例如：MIIEvQIBADANB ... ... -->"
-  merchant_cert_path: #  "<-- 请填写您的应用公钥证书文件路径，例如：/foo/appCertPublicKey_2019051064521003.crt -->"
-  alipay_cert_path: # "<-- 请填写您的支付宝公钥证书文件路径，例如：/foo/alipayCertPublicKey_RSA2.crt -->"
-  alipay_rootcert_path: #  "<-- 请填写您的支付宝根证书文件路径，例如：/foo/alipayRootCert.crt -->"
+  merchant_cert_path: # 请填写您的应用公钥证书文件路径，例如：/foo/appCertPublicKey_2019051064521003.crt
+  alipay_cert_path: # 请填写您的支付宝公钥证书文件路径，例如：/foo/alipayCertPublicKey_RSA2.crt
+  alipay_rootcert_path: # 请填写您的支付宝根证书文件路径，例如：/foo/alipayRootCert.crt
   #//注：如果采用非证书模式，则无需赋值上面的三个证书路径，改为赋值如下的支付宝公钥字符串即可
   alipay_public_key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlrqr6Clyw8SsTip7xbIWR1pQeRHqnldP7xVjLvc4tcU0pLYAM2tGQGbiLSVkM404jMBKAY27gcKYH8gIhGDe9HXuAlLLC3uqE/Qn2y46EokMK6m1y/Nfti5q8Js3RzajoX+mroaIUNd9cT7qWq2xTY26ZI4mJWAFc4EkMVT4CMrvrqGNPK3Soav9PMOiqhaDcyjlHChvZw3ij+2l+y6R4Ox+Ht5BK3AgaGLo5I+n5EaT6LI1AXo36YMIvhqbPsISar+8791wumxu+1dqW03HjoyLppPCJzMvnPEhTdWYcVs1g8A1rH4R4x1UfCrEph7Nyarg1tA9wfI4yGD9CvzpiwIDAQAB # "<-- 请填写您的支付宝公钥，例如：MIIBIjANBg... -->"
   # //可设置异步通知接收服务地址（可选）
-  notify_url: # "<-- 请填写您的支付类接口异步通知接收服务地址，例如：https://www.test.com/callback -->"
+  notify_url: # 请填写您的支付类接口异步通知接收服务地址，例如：https://www.test.com/callback
   # 可设置AES密钥，调用AES加解密相关接口时需要（可选）
-  encrypt_key: # "<-- 请填写您的AES密钥，例如：aa4BtZ4tspm2wnXLb1ThQA== -->"
+  encrypt_key: # 请填写您的AES密钥，例如：aa4BtZ4tspm2wnXLb1ThQA==
